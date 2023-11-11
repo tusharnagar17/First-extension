@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "First Extension",
+  "version": "1.0",
+  "description": "My first attempt to make extension",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "images/icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "popup.js"
+  },
+  "icons": {
+    "48": "images/icon.png"
+  }
+}
