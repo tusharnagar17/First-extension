@@ -1,16 +1,10 @@
-# Learning how to make chrome extension
+# First Chrome extension
 
-1. Set Up Your Project
+- project created to learn how chrome extension works.
+- it is way more simpler than making web-app.
 
-- Create a new folder for your extension project.
-- create three blank file
-  - manifest.json
-  - popup.html
-  - popup.js
+## things have been learn while coding.
 
-2. In popup.html
-
-- paste the write the code
-  ![Alt text](image.png)
-
-3. In popup.js
+1. how to setup manifest.json
+2. popup.html, popup.js
+3. how to upload and test extension to chrome.
